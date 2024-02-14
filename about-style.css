@@ -1,0 +1,57 @@
+.wel{
+    border: 0px solid whitesmoke;
+    border-radius: 50px;
+    background-color: rgb(241, 208, 18);
+    height:50px;
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.d{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    float: right;
+}
+button{
+    border: 0px;
+    margin-right:10px;
+    margin-bottom: 7%;
+}
+a{
+    text-decoration: none;
+    color: #0d142b;
+}
+button:hover{
+text-transform: uppercase;
+background-color: palegoldenrod;
+border:0px;
+}
+section p{
+    text-align: justify;
+}
+aside{
+  text-transform: capitalize;
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+section iframe{
+    margin: 3% 7%;
+    border-radius: 50px;
+
+}
+footer{
+    text-align:center;
+}
+body{
+    background-image: url('pexels-alexander-ermakov-12083841.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

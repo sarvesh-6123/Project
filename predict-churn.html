@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict-Churn</title>
+    <link rel="stylesheet" href="predict-churn-style.css">
+</head>
+<body>
+    <div class="nav">
+    <nav>
+        <ul type="none">
+            <button><a href="home-page.html" >Home</a></button>
+            <button><a href="about.html" >About Us</a></button>
+            <button><a href="mailto:sarveshvaraams6123@gmail.com" >Contact</a></button>
+        </ul>
+    </nav>
+</div>
+    <form>
+        <div  class="fsp">
+        <fieldset class="fs">
+            <div class="ipf">
+            <h2>Enter Data For Prediction</h2>
+            <input type="text/email" placeholder="User ID" name="uname" id="uname"/><br>
+            <input type="text" placeholder="Customer Name" name="cname" id="cname"/><br>
+            <input type="number" placeholder="Age" name="psw" id="psw"/><br>
+            <input type="text" placeholder="Geography" name="cname" id="cname"/><br>
+            <input type="text" placeholder="Tenture" name="psw" id="psw"/><br>
+            <div class="gender">
+                <select>
+                    <option>Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select>
+            </div>
+            <div class="snr">
+                <select>
+                    <option>Senior Citizen</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+            <div class="is">
+                <select>
+                    <option>Internet Services</option>
+                    <option>DSL</option>
+                    <option>Fiber Optics</option>
+                    <option>NO Internet Services</option>
+                </select>
+            </div>
+            <input type="text" placeholder="Churn No or Yes" name="cname" id="churn" /><br>
+            <button onclick="analyse()">Analyse</button>
+    </fieldset>
+</div>
+    </form>
+    <div class="vi">
+        <iframe width="450" height="250" src="https://www.youtube.com/embed/IOdW3jompYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+    </div>
+    <script src="predict-churn.js"></script>
+</body>
+</html>

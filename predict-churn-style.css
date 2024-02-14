@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+@keyframes example {
+    0%   {text-shadow:3px 2px 5px rgb(172, 154, 154);}
+    25%  {text-shadow:-3px -2px 5px  rgb(172, 154, 154);}
+    50%  {text-shadow:3px -2px 5px  rgb(172, 154, 154);}
+    75%  {text-shadow:-3px 2px 5px  rgb(172, 154, 154);}
+    100% {text-shadow:3px -2px 5px  rgb(172, 154, 154);
+  }
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('predict-churn.jpg');
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+    background-color: #e5e5e5;
+}
+.fs{
+    width:65%;
+    border-radius: 50px;
+    margin-top: 20px;
+    box-shadow: whitesmoke 10px 13px 7px,whitesmoke -5px -6px 7px;
+    display: flex;
+    justify-content: center;
+    margin: 15%;
+}
+.fs input{
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: 0px;
+    background-color: rgba(248, 221, 99, 0.5);
+    border-radius: 50px;
+}
+.fs input:hover{
+    background-color: rgba(248, 221, 99, 0.945);
+}
+.fs select:hover{
+    background-color: rgba(248, 221, 99, 0.945);
+}
+.fsp{
+    display: flex;
+    margin-left:5%;
+    width:35%;
+}
+h2{
+    font-size: 20px;
+    color:#ffd700;
+    text-align: center;
+    animation: example 5s linear infinite;
+    font-family: 'Roboto Mono', monospace;
+    margin: 5% 0;
+}
+.ipf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+nav{
+    position: fixed;
+    right: 20px;
+    top: 15px;
+} 
+nav button{
+    padding: 5px 15px;
+    border: 0;
+    padding: 6px;
+    border-radius: 10px;
+    transition: padding 0.5s, border-radius 0.5s ;
+    border-radius: 5px;
+    background:transparent;
+    font-size: 17px;
+    font-family: 'Acme', sans-serif;
+}
+a{
+    color:rgba(190,206,233,255);text-decoration: none;
+}
+nav button:hover{
+    background-color: aliceblue;
+
+}
+nav button:hover a{
+    color: black;
+    padding: 6px;
+    border-radius: 10px;
+    transition: padding 0.5s, border-radius 0.5s ;
+}
+.fs{
+    background-color: #6c6d679a;
+}
+.ipf button{
+  padding: 5px 15px;
+  margin:20px 0px;
+  background-color: azure;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+ }
+ .ipf button:hover{
+  background: rgb(131, 131, 175);
+  text-transform: uppercase;
+ }
+ .gender select{
+    padding: 5px 80px;
+    margin-top: 20px;
+    border: 0px;
+    background-color: rgba(248, 221, 99, 0.5);
+    border-radius: 50px;
+ }
+ .snr select{
+    padding: 5px 62px;
+    margin-top: 35px;
+    border: 0px;
+    background-color: rgba(248, 221, 99, 0.5);
+    border-radius: 50px;
+ }
+ .is select{
+    padding: 5px 38px;
+    margin-top: 35px;
+    border: 0px;
+    background-color: rgba(248, 221, 99, 0.5);
+    border-radius: 50px;
+ }
+ .cr select{
+    padding: 5px 80px;
+    margin-top: 35px;
+    border: 0px;
+    background-color: rgba(248, 221, 99, 0.5);
+    border-radius: 50px;
+ }
+ .vi{
+    position: fixed;
+    top:30%;
+    right:15%;
+ }
+ .vi iframe{
+    border-radius: 20px;
+ }
+ input::placeholder{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'REM', sans-serif;
+ }
+ #churn{
+    margin-top: 15%;
+ }
+ @media (max-width:1024px){
+      .vi{
+        display: none;
+      }
+ }
